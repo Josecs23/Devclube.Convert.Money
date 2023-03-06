@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    height: 766px;
+    margin: 0 auto;
+    margin-top: 100PX;
+    background: #F4F4F4;
+}
+
+header {
+    background-color: #1B83E2;
+    width: 375px;
+    height: 66px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 302px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background: #1B83E2;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 640px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F4F4F4;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.6;
+
+}
+
+section {
+    width: 327px;
+    height: 276px;
+    left: 24px;
+    top: 458px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    margin-top: 36px;
+
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.currency-value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+
+}
+.arrow-img{
+ margin: 10px  auto ;
+ display: block;
+}
